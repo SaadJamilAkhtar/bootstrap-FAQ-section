@@ -1,3 +1,32 @@
-.main-img-section{
-    
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
+
+.main-content{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main{
+    width: 75vw;
+    height: 75vh;
+}
+
+.main-bg-img{
+    position: absolute;
+
+    img{
+        height: 75vh;
+    }
+}
+
+.box-img{
+    position: absolute;
+    margin-top: 20vh;
+}
+

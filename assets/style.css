@@ -1,1 +1,38 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.main-content {
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main {
+  width: 75vw;
+  height: 75vh;
+}
+
+.main-bg-img {
+  position: absolute;
+}
+
+.main-bg-img img {
+  height: 75vh;
+}
+
+.box-img {
+  position: absolute;
+  margin-top: 20vh;
+}
+/*# sourceMappingURL=style.css.map */
